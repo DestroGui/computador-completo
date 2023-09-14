@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /*100% do view heght port, isto é, a tela completa de onde estiver abrindo*/
+    box-sizing: border-box; /* para nada sair do "pai", que seria o uma parte do texto sair do body*/
+    background-color: #000000; 
+    color: #F6F6F6; /* color = muda a cor de todos os textos */
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: whitesmoke;
+    margin: 10px;
+}
+
+div {
+    padding-top: 0%;
+    padding-bottom: 2%;
+  }
+
+p {
+    color: white;
+    margin: 0px;
+}
+
+.destaque__texto {
+    color: blue;
+}
+
+.listando {
+    padding-left: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between; /*dar espaço entre os dois links*/
+    padding: 3%;
+}
+
+.link__redes__sociais {
+    background-color: #22D4FD;
+    font-size: 22px;
+    width: 125px; /* tamanho do background de outra cor */
+    padding: 5px 5px; /*primeiro numero eixo vertical, segundo numero eixo horizontal*/
+    text-align: center; /* alinhar no meio */
+    border-radius: 16px; /* tornar a borda redonda */
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.apresentacao {
+    margin: 5% 5%; /*primeiro numero é margem vertical, o segundo é margel lateral*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__todo {
+    gap: 500px;
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 25px;
+}
+
+.apresentacao__conteudo {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-family: 'Domine', serif;
+}
+
+.apresentacao__titulo {
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+}
